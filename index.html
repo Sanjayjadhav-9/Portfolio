@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- REMIXICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Portfolio website</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo">Sanjay</a>
+
+        <div id="nav-menu" class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#works" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <i id="nav-close" class="ri-close-line nav-close"></i>
+        </div>
+
+        <div class="nav-btns">
+          <i class="ri-sun-line change-theme" id="theme-toggle"></i>
+          <div id="nav-toggle" class="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section id="home" class="home section">
+        <div class="home-container container grid">
+          <div class="home-data">
+            <h1 class="home-title">Sanjay Guguloth</h1>
+            <h3 class="home-job">I am a Web Developer</h3>
+
+            <p class="home-description">
+              A passionate web developer based in the state of california. With
+              a keen eye for detail and a passion for web design, I specialize
+              in creating visually captivating and highly functional website.
+            </p>
+
+            <a href="#works" class="button">My Works</a>
+          </div>
+
+          <div class="home-img-wrapper">
+            <div class="home-img-cover">
+              <img
+                src="assets/images/profile.png"
+                alt="profile picture of the person"
+                class="home-img"
+              />
+            </div>
+          </div>
+
+          <div class="home-social grid">
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              class="home-social-link"
+            >
+              <i class="ri-linkedin-fill"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="home-social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a
+              href="https://github.com/"
+              target="_blank"
+              class="home-social-link"
+            >
+              <i class="ri-github-fill"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="about section">
+        <div class="about-container container grid">
+          <div class="about-experience">
+            <span class="about-no"><count-up>1.5</count-up></span>
+            <h3 class="about-title">
+              Years <br />
+              Experience
+            </h3>
+          </div>
+
+          <div>
+            <h2 class="about-description">
+              Over <span class="text-gradient">one and half years of development experience</span>,
+              transforming concept ideas into projects through
+              <span class="text-gradient">creativity</span> and
+              <span class="text-gradient">interactive design</span>.
+            </h2>
+
+            <a href="assets/pdf/Sanjay-Resume.pdf" class="button"
+              >Download CV</a
+            >
+          </div>
+
+          <ul class="about-data grid">
+            <li class="about-item">
+              <h3 class="about-item-no"><count-up>1</count-up></h3>
+              <p class="about-details">Fullstack Projects</p>
+            </li>
+            <li class="about-item">
+              <h3 class="about-item-no"><count-up>2</count-up></h3>
+              <p class="about-details">Frontend Projects</p>
+            </li>
+            <li class="about-item">
+              <h3 class="about-item-no"><count-up>2</count-up></h3>
+              <p class="about-details">Backend Projects</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services" class="services section">
+        <h2 class="section-title">My Services</h2>
+
+        <div class="services-container container grid">
+          <article class="services-card">
+            <span class="services-no">01</span>
+
+            <h3 class="services-title">Responsive Design</h3>
+            <p class="services-description">
+              Ensure your website looks great on any device, with layouts that
+              adapt to different screen sizes seamlessly.
+            </p>
+          </article>
+          <article class="services-card">
+            <span class="services-no">02</span>
+
+            <h3 class="services-title">CMS Development</h3>
+            <p class="services-description">
+              Set up user-friendly CMS solutions like WordPPress or custom-built
+              options so clients can manage content easily.
+            </p>
+          </article>
+          <article class="services-card">
+            <span class="services-no">03</span>
+
+            <h3 class="services-title">API Integrations</h3>
+            <p class="services-description">
+              Build and integrate APIs to connect websites with third-party
+              applications, enhancing functionality.
+            </p>
+          </article>
+        </div>
+      </section>
+      
+      <!-- SKILLS -->
+      <section id="skills" class="skills section">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container container grid">
+          <div class="skills-group skills-frontend">
+            <h3 class="skills-title">Frontend Developer</h3>
+
+            <div class="skills-items grid">
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img src="assets/images/html.svg" alt="" class="skills-img" />
+                </div>
+                <h3 class="skills-name">HTML</h3>
+                <span class="skills-level">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img src="assets/images/css.svg" alt="" class="skills-img" />
+                </div>
+                <h3 class="skills-name">CSS</h3>
+                <span class="skills-level">Advanced</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img src="assets/images/js.svg" alt="" class="skills-img" />
+                </div>
+                <h3 class="skills-name">JavaScript</h3>
+                <span class="skills-level">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img
+                    src="assets/images/typescript.svg"
+                    alt=""
+                    class="skills-img"
+                  />
+                </div>
+                <h3 class="skills-name">TypeScript</h3>
+                <span class="skills-level">Basic</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img
+                    src="assets/images/react.svg"
+                    alt=""
+                    class="skills-img"
+                  />
+                </div>
+                <h3 class="skills-name">React</h3>
+                <span class="skills-level">Basic</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img
+                    src="assets/images/tailwind.svg"
+                    alt=""
+                    class="skills-img"
+                  />
+                </div>
+                <h3 class="skills-name">Tailwind CSS</h3>
+                <span class="skills-level">Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-group skills-backend">
+            <h3 class="skills-title">Backend Development</h3>
+
+            <div class="skills-items grid">
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img
+                    src="assets/images/nodejs.svg"
+                    alt=""
+                    class="skills-img"
+                  />
+                </div>
+                <h3 class="skills-name">Node.js</h3>
+                <span class="skills-level">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img
+                    src="assets/images/mongoDB.svg"
+                    alt=""
+                    class="skills-img"
+                  />
+                </div>
+                <h3 class="skills-name">MongoDB</h3>
+                <span class="skills-level">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img
+                    src="assets/images/postgresql.svg"
+                    alt=""
+                    class="skills-img"
+                  />
+                </div>
+                <h3 class="skills-name">PostgreSQL</h3>
+                <span class="skills-level">Basic</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img
+                    src="assets/images/mysql.svg"
+                    alt=""
+                    class="skills-img"
+                  />
+                </div>
+                <h3 class="skills-name">MySQL</h3>
+                <span class="skills-level">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img src="assets/images/git.svg" alt="" class="skills-img" />
+                </div>
+                <h3 class="skills-name">Git</h3>
+                <span class="skills-level">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESUME -->
+      <section class="resume section">
+        <h2 class="section-title">My Journey</h2>
+
+        <div class="resume-container container grid">
+          <div class="resume-item grid">
+            <div class="resume-left">
+              <i class="ri-apple-fill resume-icon"></i>
+              <h3 class="resume-title">Promilo</h3>
+              <span class="resume-duration">Jun 2024 - May 2025</span>
+            </div>
+
+            <div class="resume-right">
+              <h3 class="resume-title">Frontend Developer</h3>
+              <span class="resume-description"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                dolor corporis veritatis aut distinctio nesciunt dolores fuga
+                exercitationem illo magni.</span
+              >
+            </div>
+          </div>
+          <div class="resume-item grid">
+            <div class="resume-right">
+              <i class="ri-facebook-circle-fill resume-icon"></i>
+              <h3 class="resume-title">Careerpedia</h3>
+              <span class="resume-duration">Jan 2024 - May 2024</span>
+            </div>
+
+            <div class="resume-left">
+              <h3 class="resume-title">Frontend Development Course</h3>
+              <span class="resume-description"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                dolor corporis veritatis aut distinctio nesciunt dolores fuga
+                exercitationem illo magni.</span
+              >
+            </div>
+          </div>
+          <div class="resume-item grid">
+            <div class="resume-left">
+              <i class="ri-graduation-cap-fill resume-icon"></i>
+              <h3 class="resume-title">University</h3>
+              <span class="resume-duration">Oct 2020 - Jun 2023</span>
+            </div>
+
+            <div class="resume-right">
+              <h3 class="resume-title">Computer Science and Engineering</h3>
+              <span class="resume-description"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                dolor corporis veritatis aut distinctio nesciunt dolores fuga
+                exercitationem illo magni.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section id="works" class="work section">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="container">
+          <ul class="work-list">
+            <li class="work-item active-work" data-filter="all">All</li>
+            <li class="work-item" data-filter=".frontend">Frontend Projects</li>
+            <li class="work-item" data-filter=".backend">Backend Projects</li>
+            <li class="work-item" data-filter=".fullstack">Fullstack Projects</li>
+          </ul>
+
+          <div class="work-container grid">
+            <div class="mix frontend">
+              <article class="work-card">
+                <img src="assets/images/project-1.jpg" alt="" class="work-img" />
+
+                <h4 class="work-category">Frontend Project</h4>
+                <h3 class="work-title">Cafe</h3>
+
+                <p class="work-description">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugiat alias temporibus, repellat dolorum odio architecto?
+                </p>
+
+                <a href="#" class="work-link">
+                  Visit Project <i class="ri-arrow-right-line work-icon"></i>
+                </a>
+              </article>
+            </div>
+            <div class="mix backend">
+              <article class="work-card">
+                <img src="assets/images/project-2.jpg" alt="" class="work-img" />
+
+                <h4 class="work-category">Backend Project</h4>
+                <h3 class="work-title">Explore</h3>
+
+                <p class="work-description">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugiat alias temporibus, repellat dolorum odio architecto?
+                </p>
+
+                <a href="" class="work-link">
+                  Visit Project <i class="ri-arrow-right-line work-icon"></i>
+                </a>
+              </article>
+            </div>
+            <div class="mix frontend">
+              <article class="work-card">
+                <img src="assets/images/project-3.jpg" alt="" class="work-img" />
+
+                <h4 class="work-category">Frontend Project</h4>
+                <h3 class="work-title">Mozar</h3>
+
+                <p class="work-description">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugiat alias temporibus, repellat dolorum odio architecto?
+                </p>
+
+                <a href="" class="work-link">
+                  Visit Project <i class="ri-arrow-right-line work-icon"></i>
+                </a>
+              </article>
+            </div>
+            <div class="mix backend">
+              <article class="work-card">
+                <img src="assets/images/project-4.jpg" alt="" class="work-img" />
+
+                <h4 class="work-category">Backend Project</h4>
+                <h3 class="work-title">Gooir</h3>
+
+                <p class="work-description">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugiat alias temporibus, repellat dolorum odio architecto?
+                </p>
+
+                <a href="" class="work-link">
+                  Visit Project <i class="ri-arrow-right-line work-icon"></i>
+                </a>
+              </article>
+            </div>
+            <div class="mix fullstack">
+              <article class="work-card">
+                <img src="assets/images/project-5.jpg" alt="" class="work-img" />
+
+                <h4 class="work-category">Fullstack Project</h4>
+                <h3 class="work-title">Stay Fit</h3>
+
+                <p class="work-description">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugiat alias temporibus, repellat dolorum odio architecto?
+                </p>
+
+                <a href="" class="work-link">
+                  Visit Project <i class="ri-arrow-right-line work-icon"></i>
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact section">
+        <div class="contact-container container grid">
+            <div class="contact-group">
+                <h2 class="section-title contact-section-title">
+                    Let's Talk About <br/> 
+                    Your Project
+                </h2>
+
+                <div class="contact-data grid">
+                    <div class="contact-item">
+                        <span class="contact-icon">
+                            <i class="ri-mail-open-fill"></i>
+                        </span>
+                        <div>
+                            <h3 class="contact-title">E-mail</h3>
+                            <p class="contact-description">hello@domain.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">
+                            <i class="ri-phone-fill"></i>
+                        </span>
+                        <div>
+                            <h3 class="contact-title">Phone</h3>
+                            <p class="contact-description">+91 987 654 3210</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="contact-icon">
+                            <i class="ri-map-pin-2-fill"></i>
+                        </span>
+                        <div>
+                            <h3 class="contact-title">Location</h3>
+                            <p class="contact-description">123 Main Street New York, 10001</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form id="contact-form" class="contact-form grid">
+                <div class="contact-form-div">
+                    <label for="name" class="contact-label">Name</label>
+                    <input type="text" name="name" class="contact-input" id="contact-name">
+                </div>
+
+                <div class="contact-form-div">
+                    <label for="email" class="contact-label">Email</label>
+                    <input type="email" name="email" class="contact-input" id="contact-email">
+                </div>
+
+                <div class="contact-form-div">
+                    <label for="message" class="contact-label">Message</label>
+                    <textarea name="message" class="contact-input contact-area" id="contact-message"></textarea>
+                </div>
+
+                <button type="submit" class="button contact-button">Send Message</button>
+
+                <p class="contact-message" id="message"></p>
+            </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="footer-social">
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="ri-linkedin-fill"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="ri-instagram-line"></i>
+          </a>
+
+          <a
+            href="https://github.com/"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="ri-github-fill"></i>
+          </a>
+        </div>
+
+        <p class="footer-copyright">Made with <span>❤️</span> by me.</p>
+        <p class="footer-copyright">&copy; 2025 <span>Sanjay</span>. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <!-- COUNT-UP -->
+    <script src="https://cdn.jsdelivr.net/gh/lekoala/formidable-elements@master/dist/count-up.min.js"></script>
+
+    <!-- MIXITUP -->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!-- EMAIL JS -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+     <script>
+        emailjs.init('FJlzeMvFPaKZVPZCG');
+     </script>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
